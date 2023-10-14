@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Text Fields </title>
+</head>
+
+<body>
+<h1 style="font-family:georgia,garamond,serif;font-size:20px;font-style:bold;">Customer Profile Form</h1>
+
+<form name="Profile" method= "post">
+<section>
+
+<div>
+<div style="float:left;margin-right:200px;">
+<label for="fname"> First name </label>
+</div>
+
+<div>
+<div style="float:left;">
+<label for="lname">Last name </label>
+</div> 
+
+<br style="clear:both;"/>
+<div>
+<div style="float:left;margin-right:20px;">
+<input id= "fname" type= "text" value=" " name= "fname"size="30">
+</div>
+
+<div>
+<input id= "lname type= "text" value=" " name= "lname" size="30"> 
+<input type="button" value="SUBMIT" id="idbutton" style="height:25px;width:110px;">
+</div>
+
+<br style="clear:both;"/>
+
+<div>
+<div style="float:left;margin-right:170px;">
+<label for="pnumber"> Phone Number </label>
+</div>
+
+<div>
+<div style="float:left;">
+<label for="fnumber">Fax Number </label>
+</div> 
+
+<br style="clear:both;"/>
+<div>
+<div style="float:left;margin-right:20px;">
+<input id= "pnumber" type= "text" value=" " name= "pnumber" size="30">
+</div>
+
+<div>
+<input id= "fnumber" type= "text" value=" " name= "fnumber" size="30">
+<input type="button" value="RESET" id="resetbutton" style="height:25px;width:110px;">
+</div>
+
+<br style="clear:both;"/>
+
+<div>
+<div style="float:left;margin-right:12px;"">
+<label for="email">Email: </label>
+</div> 
+
+<div>
+<div style="float:left;">
+<input id= "email" type= "text" value=" " name= "email" size="60">
+<input type="button" value="CHOOSE FILE" id="cfbutton" style="height:25px;width:110px;">
+</div> 
+
+<br style="clear:both;"/>
+<br style="clear:both;"/>
+
+<div>
+<div style="float:left;margin-right:12px;"">
+<label for="cname">Company Name: </label>
+</div> 
+
+<div>
+<div style="float:left;">
+<input id= "cname" type= "text" value=" " name= "cname" size="51">
+<input type="button" value="CANCEL" id="cancelbutton" style="height:25px;width:110px;">
+</div> 
+
+<br style="clear:both;"/>
+<br style="clear:both;"/>
+<h2 style="font-family:georgia,garamond,serif;font-size:20px;font-style:bold;">Address</h2>
+
+
+<div>
+<div style="float:left;margin-right:20px;">
+<label for="city">City</label>
+<!-- Albay-->
+<select id="city" name="city">
+    <option value="">Select City</option>
+    <option value="Aanislag">Aanislag</option>
+    <option value="Abucay">Abucay</option>
+    <option value="Abuyog">Abuyog</option>
+    <option value="Agos">Agos</option>
+    <option value="Aguada">Aguada</option>
+    <option value="Agupit">Agupit</option>
+    <option value="Alayao">Alayao</option>
+    <option value="Antipolo">Antipolo</option>
+    <option value="Anuling">Anuling</option>
+    <option value="Apad">Apad</option>
+    <option value="Apud">Apud</option>
+    <option value="Armenia">Armenia</option>
+    <option value="Aroroy">Aroroy</option>
+    <option value="Ayugan">Ayugan</option>
+    <option value="Baao">Baao</option>
+    <option value="Bacacay">Bacacay</option>
+    <option value="Bacolod">Bacolod</option>
+    <option value="Bacon">Bacon</option>
+    <option value="Badian">Badian</option>
+    <option value="Bagacay">Bagacay</option>
+    <option value="Bagahanlad">Bagahanlad</option>
+    <option value="Bagamanoc">Bagamanoc</option>
+    <option value="Bagumbayan">Bagumbayan</option>
+    <option value="Bahay">Bahay</option>
+    <option value="Balading">Balading</option>
+    <option value="Balaogan">Balaogan</option>
+    <option value="Balatan">Balatan</option>
+    <option value="Baleno">Baleno</option>
+    <option value="Balete">Balete</option>
+    <option value="Baligang">Baligang</option>
+    <option value="Balinad">Balinad</option>
+    <option value="Baliuag Nuevo">Baliuag Nuevo</option>
+    <option value="Balogo">Balogo</option>
+    <option value="Balucawi">Balucawi</option>
+    <option value="Balud">Balud</option>
+    <option value="Banag">Banag</option>
+    <option value="Bangad">Bangad</option>
+    <option value="Bangkirohan">Bangkirohan</option>
+    <option value="Banocboc">Banocboc</option>
+    <option value="Bao">Bao</option>
+    <option value="Baras">Baras</option>
+    <option value="Barayong">Barayong</option>
+    <option value="Barcelona">Barcelona</option>
+    <option value="Bariw">Bariw</option>
+    <option value="Barra">Barra</option>
+    <option value="Bascaron">Bascaron</option>
+    <option value="Basiad">Basiad</option>
+    <option value="Basicao Coastal">Basicao Coastal</option>
+    <option value="Basud">Basud</option>
+    <option value="Batana">Batana</option>
+    <option value="Bato">Bato</option>
+    <option value="Batobalane">Batobalane</option>
+    <option value="Batuan">Batuan</option>
+    <option value="Baybay">Baybay</option>
+    <option value="Beberon">Beberon</option>
+    <option value="Bigaa">Bigaa</option>
+    <option value="Binanwanaan">Binanwanaan</option>
+    <option value="Binitayan">Binitayan</option>
+    <option value="Binodegahan">Binodegahan</option>
+    <option value="Bolo">Bolo</option>
+    <option value="Bombon">Bombon</option>
+    <option value="Bonga">Bonga</option>
+    <option value="Boton">Boton</option>
+    <option value="Buang">Buang</option>
+    <option value="Buenavista">Buenavista</option>
+    <option value="Buga">Buga</option>
+    <option value="Buhatan">Buhatan</option>
+    <option value="Buhi">Buhi</option>
+    <option value="Bula">Bula</option>
+    <option value="Bulan">Bulan</option>
+    <option value="Bulo">Bulo</option>
+    <option value="Buluang">Buluang</option>
+    <option value="Bulusan">Bulusan</option>
+    <option value="Burabod">Burabod</option>
+    <option value="Buracan">Buracan</option>
+    <option value="Busing">Busing</option>
+    <option value="Butag">Butag</option>
+    <option value="Buyo">Buyo</option>
+    <option value="Cabcab">Cabcab</option>
+    <option value="Cabiguan">Cabiguan</option>
+    <option value="Cabitan">Cabitan</option>
+    <option value="Cabognon">Cabognon</option>
+    <option value="Cabugao">Cabugao</option>
+    <option value="Cabusao">Cabusao</option>
+    <option value="Caditaan">Caditaan</option>
+    <option value="Cadlan">Cadlan</option>
+    <option value="Cagmanaba">Cagmanaba</option>
+    <option value="Calabaca">Calabaca</option>
+    <option value="Calabanga">Calabanga</option>
+    <option value="Calachuchi">Calachuchi</option>
+    <option value="Calasgasan">Calasgasan</option>
+    <option value="Calatagan">Calatagan</option>
+    <option value="Calolbon">Calolbon</option>
+    <option value="Camalig">Camalig</option>
+    <option value="Camaligan">Camaligan</option>
+    <option value="Canaman">Canaman</option>
+    <option value="Canomoy">Canomoy</option>
+    <option value="Capalonga">Capalonga</option>
+    <option value="Capucnasan">Capucnasan</option>
+    <option value="Capuy">Capuy</option>
+    <option value="Caramoan">Caramoan</option>
+    <option value="Caramoran">Caramoran</option>
+    <option value="Caranan">Caranan</option>
+    <option value="Caraycayon">Caraycayon</option>
+    <option value="Carriedo">Carriedo</option>
+    <option value="Casiguran">Casiguran</option>
+    <option value="Castilla">Castilla</option>
+    <option value="Castillo">Castillo</option>
+    <option value="Catabangan">Catabangan</option>
+    <option value="Cataingan">Cataingan</option>
+    <option value="Causip">Causip</option>
+    <option value="Claveria">Claveria</option>
+    <option value="Cotmon">Cotmon</option>
+    <option value="Culacling">Culacling</option>
+    <option value="Cumadcad">Cumadcad</option>
+    <option value="Curry">Curry</option>
+    <option value="Daet">Daet</option>
+    <option value="Daguit">Daguit</option>
+    <option value="Dalupaon">Dalupaon</option>
+    <option value="Dangcalan">Dangcalan</option>
+    <option value="Dapdap">Dapdap</option>
+    <option value="Daraga">Daraga</option>
+    <option value="Del Gallego">Del Gallego</option>
+    <option value="Del Rosario">Del Rosario</option>
+    <option value="Dimasalang">Dimasalang</option>
+    <option value="Donsol">Donsol</option>
+    <option value="Dugcal">Dugcal</option>
+    <option value="Dugongan">Dugongan</option>
+    <option value="Esperanza">Esperanza</option>
+    <option value="Estancia">Estancia</option>
+    <option value="Fabrica">Fabrica</option>
+    <option value="Gabao">Gabao</option>
+    <option value="Gainza">Gainza</option>
+    <option value="Gambalidio">Gambalidio</option>
+    <option value="Garchitorena">Garchitorena</option>
+    <option value="Gatbo">Gatbo</option>
+    <option value="Gibgos">Gibgos</option>
+    <option value="Gigmoto">Gigmoto</option>
+    <option value="Goa">Goa</option>
+    <option value="Gubat">Gubat</option>
+    <option value="Guijalo">Guijalo</option>
+    <option value="Guinacotan">Guinacotan</option>
+    <option value="Guinobatan">Guinobatan</option>
+    <option value="Gumaus">Gumaus</option>
+    <option value="Guruyan">Guruyan</option>
+    <option value="Hamoraon">Hamoraon</option>
+    <option value="Herrera">Herrera</option>
+    <option value="Himaao">Himaao</option>
+    <option value="Hobo">Hobo</option>
+    <option value="Imelda">Imelda</option>
+    <option value="Inapatan">Inapatan</option>
+    <option value="Iraya">Iraya</option>
+    <option value="Iriga City">Iriga City</option>
+    <option value="Irosin">Irosin</option>
+    <option value="Joroan">Joroan</option>
+    <option value="Jose Pañganiban">Jose Pañganiban</option>
+    <option value="Jovellar">Jovellar</option>
+    <option value="Juban">Juban</option>
+    <option value="Kaliliog">Kaliliog</option>
+    <option value="Kinalansan">Kinalansan</option>
+    <option value="Labnig">Labnig</option>
+    <option value="Labo">Labo</option>
+    <option value="Lacag">Lacag</option>
+    <option value="Lagonoy">Lagonoy</option>
+    <option value="Lajong">Lajong</option>
+    <option value="Lanigay">Lanigay</option>
+    <option value="Lantangan">Lantangan</option>
+    <option value="Larap">Larap</option>
+    <option value="Legaspi">Legaspi</option>
+    <option value="Libmanan">Libmanan</option>
+    <option value="Libog">Libog</option>
+    <option value="Libon">Libon</option>
+    <option value="Liboro">Liboro</option>
+    <option value="Ligao">Ligao</option>
+    <option value="Limbuhan">Limbuhan</option>
+    <option value="Lourdes">Lourdes</option>
+    <option value="Lubigan">Lubigan</option>
+    <option value="Lugui">Lugui</option>
+    <option value="Luklukan">Luklukan</option>
+    <option value="Luna">Luna</option>
+    <option value="Lupi">Lupi</option>
+    <option value="Lupi Viejo">Lupi Viejo</option>
+    <option value="Maagnas">Maagnas</option>
+    <option value="Mabiton">Mabiton</option>
+    <option value="Macabugos">Macabugos</option>
+    <option value="Macalaya">Macalaya</option>
+    <option value="Magallanes">Magallanes</option>
+    <option value="Magarao">Magarao</option>
+    <option value="Magsalangi">Magsalangi</option>
+    <option value="Mahaba">Mahaba</option>
+    <option value="Malabog">Malabog</option>
+    <option value="Malasugui">Malasugui</option>
+    <option value="Malatap">Malatap</option>
+    <option value="Malawag">Malawag</option>
+    <option value="Malbug">Malbug</option>
+    <option value="Malidong">Malidong</option>
+    <option value="Malilipot">Malilipot</option>
+    <option value="Malinao">Malinao</option>
+    <option value="Malinta">Malinta</option>
+    <option value="Mambulo">Mambulo</option>
+    <option value="Mampurog">Mampurog</option>
+    <option value="Manamrag">Manamrag</option>
+    <option value="Mandaon">Mandaon</option>
+    <option value="Manga">Manga</option>
+    <option value="Manito">Manito</option>
+    <option value="Manquiring">Manquiring</option>
+    <option value="Maonon">Maonon</option>
+    <option value="Marintoc">Marintoc</option>
+    <option value="Marupit">Marupit</option>
+    <option value="Masaraway">Masaraway</option>
+    <option value="Masbate">Masbate</option>
+    <option value="Maslog">Maslog</option>
+    <option value="Masoli">Masoli</option>
+    <option value="Matacon">Matacon</option>
+    <option value="Matnog">Matnog</option>
+    <option value="Mauraro">Mauraro</option>
+    <option value="Mayngaran">Mayngaran</option>
+    <option value="Mercedes">Mercedes</option>
+    <option value="Miaga">Miaga</option>
+    <option value="Milagros">Milagros</option>
+    <option value="Milaor">Milaor</option>
+    <option value="Miliroc">Miliroc</option>
+    <option value="Minalabac">Minalabac</option>
+    <option value="Mobo">Mobo</option>
+    <option value="Monbon">Monbon</option>
+    <option value="Monreal">Monreal</option>
+    <option value="Muladbucad">Muladbucad</option>
+    <option value="Naagas">Naagas</option>
+    <option value="Nabangig">Nabangig</option>
+    <option value="Nabua">Nabua</option>
+    <option value="Naga">Naga</option>
+    <option value="Naro">Naro</option>
+    <option value="Nato">Nato</option>
+    <option value="Ocampo">Ocampo</option>
+    <option value="Odicon">Odicon</option>
+    <option value="Ogod">Ogod</option>
+    <option value="Osiao">Osiao</option>
+    <option value="Osmeña">Osmeña</option>
+    <option value="Padang">Padang</option>
+    <option value="Palali">Palali</option>
+    <option value="Palanas">Palanas</option>
+    <option value="Palestina">Palestina</option>
+    <option value="Palsong">Palsong</option>
+    <option value="Pambuhan">Pambuhan</option>
+    <option value="Pamplona">Pamplona</option>
+    <option value="Pandan">Pandan</option>
+    <option value="Panganiban">Panganiban</option>
+    <option value="Panguiranan">Panguiranan</option>
+    <option value="Paniqui">Paniqui</option>
+    <option value="Pantao">Pantao</option>
+    <option value="Parabcan">Parabcan</option>
+    <option value="Paracale">Paracale</option>
+    <option value="Pasacao">Pasacao</option>
+    <option value="Paulba">Paulba</option>
+    <option value="Pawa">Pawa</option>
+    <option value="Pawican">Pawican</option>
+    <option value="Pawili">Pawili</option>
+    <option value="Peña">Peña</option>
+    <option value="Pilar">Pilar</option>
+    <option value="Pili">Pili</option>
+    <option value="Pinit">Pinit</option>
+    <option value="Pio Duran">Pio Duran</option>
+    <option value="Placer">Placer</option>
+    <option value="Polangui">Polangui</option>
+    <option value="Ponso">Ponso</option>
+    <option value="Potot">Potot</option>
+    <option value="Prieto Diaz">Prieto Diaz</option>
+    <option value="Province of Albay">Province of Albay</option>
+    <option value="Province of Camarines Norte">Province of Camarines Norte</option>
+    <option value="Province of Camarines Sur">Province of Camarines Sur</option>
+    <option value="Province of Catanduanes">Province of Catanduanes</option>
+    <option value="Province of Masbate">Province of Masbate</option>
+    <option value="Province of Sorsogon">Province of Sorsogon</option>
+    <option value="Puro">Puro</option>
+    <option value="Putiao">Putiao</option>
+    <option value="Quezon">Quezon</option>
+    <option value="Quitang">Quitang</option>
+    <option value="Ragay">Ragay</option>
+    <option value="Rapu-Rapu">Rapu-Rapu</option>
+    <option value="Recodo">Recodo</option>
+    <option value="Rizal">Rizal</option>
+    <option value="Sabang">Sabang</option>
+    <option value="Sabang Indan">Sabang Indan</option>
+    <option value="Sagnay">Sagnay</option>
+    <option value="Sagpon">Sagpon</option>
+    <option value="Sagrada">Sagrada</option>
+    <option value="Sagrada Familia">Sagrada Familia</option>
+    <option value="Sagurong">Sagurong</option>
+    <option value="Salingogan">Salingogan</option>
+    <option value="Salogon">Salogon</option>
+    <option value="Salvacion">Salvacion</option>
+    <option value="San Agustin">San Agustin</option>
+    <option value="San Andres">San Andres</option>
+    <option value="San Antonio">San Antonio</option>
+    <option value="San Felipe">San Felipe</option>
+    <option value="San Fernando">San Fernando</option>
+    <option value="San Francisco">San Francisco</option>
+    <option value="San Gabriel">San Gabriel</option>
+    <option value="San Isidro">San Isidro</option>
+    <option value="San Jacinto">San Jacinto</option>
+    <option value="San Jose">San Jose</option>
+    <option value="San Lucas">San Lucas</option>
+    <option value="San Miguel">San Miguel</option>
+    <option value="San Pascual">San Pascual</option>
+    <option value="San Pedro">San Pedro</option>
+    <option value="San Rafael">San Rafael</option>
+    <option value="San Ramon">San Ramon</option>
+    <option value="San Roque">San Roque</option>
+    <option value="San Sebastian">San Sebastian</option>
+    <option value="San Vicente">San Vicente</option>
+    <option value="Santa Cruz">Santa Cruz</option>
+    <option value="Santa Elena">Santa Elena</option>
+    <option value="Santa Justina">Santa Justina</option>
+    <option value="Santa Magdalena">Santa Magdalena</option>
+    <option value="Santa Rosa Sur">Santa Rosa Sur</option>
+    <option value="Santa Teresita">Santa Teresita</option>
+    <option value="Santo Domingo">Santo Domingo</option>
+    <option value="Santo Niño">Santo Niño</option>
+    <option value="Sinuknipan">Sinuknipan</option>
+    <option value="Sipocot">Sipocot</option>
+    <option value="Siruma">Siruma</option>
+    <option value="Sogod">Sogod</option>
+    <option value="Sorsogon">Sorsogon</option>
+    <option value="Sugcad">Sugcad</option>
+    <option value="Sugod">Sugod</option>
+    <option value="Tabaco">Tabaco</option>
+    <option value="Tagas">Tagas</option>
+    <option value="Tagoytoy">Tagoytoy</option>
+    <option value="Talisay">Talisay</option>
+    <option value="Talubatib">Talubatib</option>
+    <option value="Tambo">Tambo</option>
+    <option value="Tara">Tara</option>
+    <option value="Tariric">Tariric</option>
+    <option value="Tigaon">Tigaon</option>
+    <option value="Tigbao">Tigbao</option>
+    <option value="Tigbaw">Tigbaw</option>
+    <option value="Tigbinan">Tigbinan</option>
+    <option value="Tinago">Tinago</option>
+    <option value="Tinalmud">Tinalmud</option>
+    <option value="Tinambac">Tinambac</option>
+    <option value="Tinampo">Tinampo</option>
+    <option value="Tinawagan">Tinawagan</option>
+    <option value="Tiwi">Tiwi</option>
+    <option value="Tubli">Tubli</option>
+    <option value="Tuburan">Tuburan</option>
+    <option value="Tugos">Tugos</option>
+    <option value="Tulay na Lupa">Tulay na Lupa</option>
+    <option value="Tumalaytay">Tumalaytay</option>
+    <option value="Umabay">Umabay</option>
+    <option value="Usab">Usab</option>
+    <option value="Uson">Uson</option>
+    <option value="Utabi">Utabi</option>
+    <option value="Viga">Viga</option>
+    <option value="Villahermosa">Villahermosa</option>
+    <option value="Vinzons">Vinzons</option>
+    <option value="Virac">Virac</option>
+</select>
+</div>
+
+<div>
+<div style="float:left;">
+<label for="province">Province</label>
+<!--- Philippines states -->
+<select id="country-state" name="country-state">
+    <option value="">Select province</option>
+    <option value="ABR">Abra</option>
+    <option value="AGN">Agusan del Norte</option>
+    <option value="AGS">Agusan del Sur</option>
+    <option value="AKL">Aklan</option>
+    <option value="ALB">Albay</option>
+    <option value="ANT">Antique</option>
+    <option value="APA">Apayao</option>
+    <option value="AUR">Aurora</option>
+    <option value="14">Autonomous Region in Muslim Mindanao</option>
+    <option value="BAS">Basilan</option>
+    <option value="BAN">Bataan</option>
+    <option value="BTN">Batanes</option>
+    <option value="BTG">Batangas</option>
+    <option value="BEN">Benguet</option>
+    <option value="05">Bicol Region</option>
+    <option value="BIL">Biliran</option>
+    <option value="BOH">Bohol</option>
+    <option value="BUK">Bukidnon</option>
+    <option value="BUL">Bulacan</option>
+    <option value="CAG">Cagayan</option>
+    <option value="02">Cagayan Valley</option>
+    <option value="40">Calabarzon</option>
+    <option value="CAN">Camarines Norte</option>
+    <option value="CAS">Camarines Sur</option>
+    <option value="CAM">Camiguin</option>
+    <option value="CAP">Capiz</option>
+    <option value="13">Caraga</option>
+    <option value="CAT">Catanduanes</option>
+    <option value="CAV">Cavite</option>
+    <option value="CEB">Cebu</option>
+    <option value="03">Central Luzon</option>
+    <option value="07">Central Visayas</option>
+    <option value="COM">Compostela Valley</option>
+    <option value="15">Cordillera Administrative Region</option>
+    <option value="NCO">Cotabato</option>
+    <option value="DAV">Davao del Norte</option>
+    <option value="DAS">Davao del Sur</option>
+    <option value="DVO">Davao Occidental</option>
+    <option value="DAO">Davao Oriental</option>
+    <option value="11">Davao Region</option>
+    <option value="DIN">Dinagat Islands</option>
+    <option value="EAS">Eastern Samar</option>
+    <option value="08">Eastern Visayas</option>
+    <option value="GUI">Guimaras</option>
+    <option value="IFU">Ifugao</option>
+    <option value="ILN">Ilocos Norte</option>
+    <option value="01">Ilocos Region</option>
+    <option value="ILS">Ilocos Sur</option>
+    <option value="ILI">Iloilo</option>
+    <option value="ISA">Isabela</option>
+    <option value="KAL">Kalinga</option>
+    <option value="LUN">La Union</option>
+    <option value="LAG">Laguna</option>
+    <option value="LAN">Lanao del Norte</option>
+    <option value="LAS">Lanao del Sur</option>
+    <option value="LEY">Leyte</option>
+    <option value="MAG">Maguindanao</option>
+    <option value="MAD">Marinduque</option>
+    <option value="MAS">Masbate</option>
+    <option value="NCR">Metro Manila</option>
+    <option value="41">Mimaropa</option>
+    <option value="MSC">Misamis Occidental</option>
+    <option value="MSR">Misamis Oriental</option>
+    <option value="MOU">Mountain Province</option>
+    <option value="NEC">Negros Occidental</option>
+    <option value="NER">Negros Oriental</option>
+    <option value="10">Northern Mindanao</option>
+    <option value="NSA">Northern Samar</option>
+    <option value="NUE">Nueva Ecija</option>
+    <option value="NUV">Nueva Vizcaya</option>
+    <option value="MDC">Occidental Mindoro</option>
+    <option value="MDR">Oriental Mindoro</option>
+    <option value="PLW">Palawan</option>
+    <option value="PAM">Pampanga</option>
+    <option value="PAN">Pangasinan</option>
+    <option value="QUE">Quezon</option>
+    <option value="QUI">Quirino</option>
+    <option value="RIZ">Rizal</option>
+    <option value="ROM">Romblon</option>
+    <option value="SAR">Sarangani</option>
+    <option value="SIG">Siquijor</option>
+    <option value="12">Soccsksargen</option>
+    <option value="SOR">Sorsogon</option>
+    <option value="SCO">South Cotabato</option>
+    <option value="SLE">Southern Leyte</option>
+    <option value="SUK">Sultan Kudarat</option>
+    <option value="SLU">Sulu</option>
+    <option value="SUN">Surigao del Norte</option>
+    <option value="SUR">Surigao del Sur</option>
+    <option value="TAR">Tarlac</option>
+    <option value="TAW">Tawi-Tawi</option>
+    <option value="06">Western Visayas</option>
+    <option value="ZMB">Zambales</option>
+    <option value="ZAN">Zamboanga del Norte</option>
+    <option value="ZAS">Zamboanga del Sur</option>
+    <option value="09">Zamboanga Peninsula</option>
+    <option value="ZSI">Zamboanga Sibugay</option>
+</select>
+</div> 
+
+<br style="clear:both;"/>
+<br style="clear:both;"/>
+
+<div style="float:left;margin-right:15px;">
+<label for="region"> Region </label>
+<select id="country-state" name="country-state">
+    <option value="">Select Region</option>
+    <option value="R1">Region I – Ilocos Region</option>
+    <option value="R2">Region II – Cagayan Valley</option>
+    <option value="R3">Region III – Central Luzon</option>
+    <option value="R4">Region IV‑A – CALABARZON</option>
+    <option value="R5">Region V – Bicol Region</option>
+    <option value="R6">Region VI – Western Visayas</option>
+    <option value="R7">Region VII – Central Visayas</option>
+    <option value="R8">Region VIII – Eastern Visayas</option>
+    <option value="R9">Region IX – Zamboanga Peninsula</option>
+    <option value="R10">Region X – Northern Mindanao</option>
+    <option value="R11">Region XI – Davao Region</option>
+    <option value="R12">Region XII – SOCCSKSARGEN</option>
+    <option value="R13">Region XIII – Caraga</option>
+    <option value="R14">NCR – National Capital Region</option>
+    <option value="R15">CAR </option>
+    <option value="R16">BARMM</option>
+    <option value="R17">MIMAROPA</option>
+</select>
+</div>
+
+<div>
+<div style="float:left;">
+<label for="Country">Country </label>
+<select class="form-select" id="country" name="country">
+    <option>Select Country</option>
+    <option value="AF">Afghanistan</option>
+    <option value="AX">Aland Islands</option>
+    <option value="AL">Albania</option>
+    <option value="DZ">Algeria</option>
+    <option value="AS">American Samoa</option>
+    <option value="AD">Andorra</option>
+    <option value="AO">Angola</option>
+    <option value="AI">Anguilla</option>
+    <option value="AQ">Antarctica</option>
+    <option value="AG">Antigua and Barbuda</option>
+    <option value="AR">Argentina</option>
+    <option value="AM">Armenia</option>
+    <option value="AW">Aruba</option>
+    <option value="AU">Australia</option>
+    <option value="AT">Austria</option>
+    <option value="AZ">Azerbaijan</option>
+    <option value="BS">Bahamas</option>
+    <option value="BH">Bahrain</option>
+    <option value="BD">Bangladesh</option>
+    <option value="BB">Barbados</option>
+    <option value="BY">Belarus</option>
+    <option value="BE">Belgium</option>
+    <option value="BZ">Belize</option>
+    <option value="BJ">Benin</option>
+    <option value="BM">Bermuda</option>
+    <option value="BT">Bhutan</option>
+    <option value="BO">Bolivia</option>
+    <option value="BQ">Bonaire</option>
+    <option value="BA">Bosnia and Herzegovina</option>
+    <option value="BW">Botswana</option>
+    <option value="BV">Bouvet Island</option>
+    <option value="BR">Brazil</option>
+    <option value="BN">Brunei Darussalam</option>
+    <option value="BG">Bulgaria</option>
+    <option value="BF">Burkina Faso</option>
+    <option value="BI">Burundi</option>
+    <option value="KH">Cambodia</option>
+    <option value="CM">Cameroon</option>
+    <option value="CA">Canada</option>
+    <option value="CV">Cape Verde</option>
+    <option value="KY">Cayman Islands</option>
+    <option value="CF">Central African Republic</option>
+    <option value="TD">Chad</option>
+    <option value="CL">Chile</option>
+    <option value="CN">China</option>
+    <option value="CX">Christmas Island</option>
+    <option value="CC">Cocos (Keeling) Islands</option>
+    <option value="CO">Colombia</option>
+    <option value="KM">Comoros</option>
+    <option value="CG">Congo</option>
+    <option value="CK">Cook Islands</option>
+    <option value="CR">Costa Rica</option>
+    <option value="CI">Cote D'Ivoire</option>
+    <option value="HR">Croatia</option>
+    <option value="CU">Cuba</option>
+    <option value="CW">Curacao</option>
+    <option value="CY">Cyprus</option>
+    <option value="CZ">Czech Republic</option>
+    <option value="DK">Denmark</option>
+    <option value="DJ">Djibouti</option>
+    <option value="DM">Dominica</option>
+    <option value="DO">Dominican Republic</option>
+    <option value="EC">Ecuador</option>
+    <option value="EG">Egypt</option>
+    <option value="SV">El Salvador</option>
+    <option value="GQ">Equatorial Guinea</option>
+    <option value="ER">Eritrea</option>
+    <option value="EE">Estonia</option>
+    <option value="ET">Ethiopia</option>
+    <option value="FK">Falkland Islands (Malvinas)</option>
+    <option value="FO">Faroe Islands</option>
+    <option value="FJ">Fiji</option>
+    <option value="FI">Finland</option>
+    <option value="FR">France</option>
+    <option value="GF">French Guiana</option>
+    <option value="PF">French Polynesia</option>
+    <option value="TF">French Southern Territories</option>
+    <option value="GA">Gabon</option>
+    <option value="GM">Gambia</option>
+    <option value="GE">Georgia</option>
+    <option value="DE">Germany</option>
+    <option value="GH">Ghana</option>
+    <option value="GI">Gibraltar</option>
+    <option value="GR">Greece</option>
+    <option value="GL">Greenland</option>
+    <option value="GD">Grenada</option>
+    <option value="GP">Guadeloupe</option>
+    <option value="GU">Guam</option>
+    <option value="GT">Guatemala</option>
+    <option value="GG">Guernsey</option>
+    <option value="GN">Guinea</option>
+    <option value="GW">Guinea-Bissau</option>
+    <option value="GY">Guyana</option>
+    <option value="HT">Haiti</option>
+    <option value="VA">Holy See (Vatican City State)</option>
+    <option value="HN">Honduras</option>
+    <option value="HK">Hong Kong</option>
+    <option value="HU">Hungary</option>
+    <option value="IS">Iceland</option>
+    <option value="IN">India</option>
+    <option value="ID">Indonesia</option>
+    <option value="IR">Iran</option>
+    <option value="IQ">Iraq</option>
+    <option value="IE">Ireland</option>
+    <option value="IM">Isle of Man</option>
+    <option value="IL">Israel</option>
+    <option value="IT">Italy</option>
+    <option value="JM">Jamaica</option>
+    <option value="JP">Japan</option>
+    <option value="JE">Jersey</option>
+    <option value="JO">Jordan</option>
+    <option value="KZ">Kazakhstan</option>
+    <option value="KE">Kenya</option>
+    <option value="KI">Kiribati</option>
+    <option value="KR">Korea</option>
+    <option value="XK">Kosovo</option>
+    <option value="KW">Kuwait</option>
+    <option value="KG">Kyrgyzstan</option>
+    <option value="LV">Latvia</option>
+    <option value="LB">Lebanon</option>
+    <option value="LS">Lesotho</option>
+    <option value="LR">Liberia</option>
+    <option value="LY">Libyan Arab Jamahiriya</option>
+    <option value="LI">Liechtenstein</option>
+    <option value="LT">Lithuania</option>
+    <option value="LU">Luxembourg</option>
+    <option value="MO">Macao</option>
+    <option value="MG">Madagascar</option>
+    <option value="MW">Malawi</option>
+    <option value="MY">Malaysia</option>
+    <option value="MV">Maldives</option>
+    <option value="ML">Mali</option>
+    <option value="MT">Malta</option>
+    <option value="MH">Marshall Islands</option>
+    <option value="MQ">Martinique</option>
+    <option value="MR">Mauritania</option>
+    <option value="MU">Mauritius</option>
+    <option value="YT">Mayotte</option>
+    <option value="MX">Mexico</option>
+    <option value="FM">Micronesia, Federated States of</option>
+    <option value="MD">Moldova, Republic of</option>
+    <option value="MC">Monaco</option>
+    <option value="MN">Mongolia</option>
+    <option value="ME">Montenegro</option>
+    <option value="MS">Montserrat</option>
+    <option value="MA">Morocco</option>
+    <option value="MZ">Mozambique</option>
+    <option value="MM">Myanmar</option>
+    <option value="NA">Namibia</option>
+    <option value="NR">Nauru</option>
+    <option value="NP">Nepal</option>
+    <option value="NL">Netherlands</option>
+    <option value="AN">Netherlands Antilles</option>
+    <option value="NC">New Caledonia</option>
+    <option value="NZ">New Zealand</option>
+    <option value="NI">Nicaragua</option>
+    <option value="NE">Niger</option>
+    <option value="NG">Nigeria</option>
+    <option value="NU">Niue</option>
+    <option value="NF">Norfolk Island</option>
+    <option value="MP">Northern Mariana Islands</option>
+    <option value="NO">Norway</option>
+    <option value="OM">Oman</option>
+    <option value="PK">Pakistan</option>
+    <option value="PW">Palau</option>
+    <option value="PA">Panama</option>
+    <option value="PG">Papua New Guinea</option>
+    <option value="PY">Paraguay</option>
+    <option value="PE">Peru</option>
+    <option value="PH">Philippines</option>
+    <option value="PN">Pitcairn</option>
+    <option value="PL">Poland</option>
+    <option value="PT">Portugal</option>
+    <option value="PR">Puerto Rico</option>
+    <option value="QA">Qatar</option>
+    <option value="RE">Reunion</option>
+    <option value="RO">Romania</option>
+    <option value="RU">Russian Federation</option>
+    <option value="RW">Rwanda</option>
+    <option value="BL">Saint Barthelemy</option>
+    <option value="SH">Saint Helena</option>
+    <option value="KN">Saint Kitts and Nevis</option>
+    <option value="LC">Saint Lucia</option>
+    <option value="MF">Saint Martin</option>
+    <option value="PM">Saint Pierre and Miquelon</option>
+    <option value="VC">Saint Vincent and the Grenadines</option>
+    <option value="WS">Samoa</option>
+    <option value="SM">San Marino</option>
+    <option value="ST">Sao Tome and Principe</option>
+    <option value="SA">Saudi Arabia</option>
+    <option value="SN">Senegal</option>
+    <option value="RS">Serbia</option>
+    <option value="CS">Serbia and Montenegro</option>
+    <option value="SC">Seychelles</option>
+    <option value="SL">Sierra Leone</option>
+    <option value="SG">Singapore</option>
+    <option value="SX">Sint Maarten</option>
+    <option value="SK">Slovakia</option>
+    <option value="SI">Slovenia</option>
+    <option value="SB">Solomon Islands</option>
+    <option value="SO">Somalia</option>
+    <option value="ZA">South Africa</option>
+    <option value="GS">South Georgia</option>
+    <option value="SS">South Sudan</option>
+    <option value="ES">Spain</option>
+    <option value="LK">Sri Lanka</option>
+    <option value="SD">Sudan</option>
+    <option value="SR">Suriname</option>
+    <option value="SJ">Svalbard and Jan Mayen</option>
+    <option value="SZ">Swaziland</option>
+    <option value="SE">Sweden</option>
+    <option value="CH">Switzerland</option>
+    <option value="SY">Syrian Arab Republic</option>
+    <option value="TW">Taiwan, Province of China</option>
+    <option value="TJ">Tajikistan</option>
+    <option value="TZ">Tanzania, United Republic of</option>
+    <option value="TH">Thailand</option>
+    <option value="TL">Timor-Leste</option>
+    <option value="TG">Togo</option>
+    <option value="TK">Tokelau</option>
+    <option value="TO">Tonga</option>
+    <option value="TT">Trinidad and Tobago</option>
+    <option value="TN">Tunisia</option>
+    <option value="TR">Turkey</option>
+    <option value="TM">Turkmenistan</option>
+    <option value="TC">Turks and Caicos Islands</option>
+    <option value="TV">Tuvalu</option>
+    <option value="UG">Uganda</option>
+    <option value="UA">Ukraine</option>
+    <option value="AE">United Arab Emirates</option>
+    <option value="GB">United Kingdom</option>
+    <option value="US">United States</option>
+    <option value="UY">Uruguay</option>
+    <option value="UZ">Uzbekistan</option>
+    <option value="VU">Vanuatu</option>
+    <option value="VE">Venezuela</option>
+    <option value="VN">Viet Nam</option>
+    <option value="VG">Virgin Islands, British</option>
+    <option value="VI">Virgin Islands, U.s.</option>
+    <option value="WF">Wallis and Futuna</option>
+    <option value="EH">Western Sahara</option>
+    <option value="YE">Yemen</option>
+    <option value="ZM">Zambia</option>
+    <option value="ZW">Zimbabwe</option>
+</select>
+</div> 
+
+<br style="clear:both;"/>
+<br style="clear:both;"/>
+<div>
+<div style="float:left;margin-right:12px;"">
+<label for="zc">Zipcode:  </label>
+</div> 
+
+<div>
+<div style="float:left;">
+<input id= "zc" type= "text" value=" " name= "zc" size="40">
+</div> 
+
+<br style="clear:both;"/>
+<br style="clear:both;"/>
+
+
+
+<div>
+<label for="gender">Gender: </label>
+</div> 
+
+<div>
+<div style="float:left;margin-right:12px;"">
+<input type="radio" id="genderradiobutton" name="male" value="Male"> 
+<label for ="male">Male</label>
+</div>
+
+<div>
+<div style="float:left;">
+<input type="radio" id="genderradiobutton2" name="female" value="Female"> 
+<label for ="female">Female</label>
+</div>
+
+<br style="clear:both;"/>
+<br style="clear:both;"/>
+
+<div>
+<label for="status">Status: </label>
+</div> 
+
+<div>
+<div style="float:left;margin-right:12px;"">
+<input type="checkbox" id="status1" name="status1" value="Single"> 
+<label for ="status1">Single</label>
+</div>
+
+<div>
+<div style="float:left;">
+<input type="checkbox" id="status2" name="status2" value="Widow"> 
+<label for ="status2">Widowed</label>
+</div>
+<br style="clear:both;"/>
+
+<div>
+<div style="float:left;margin-right:12px;"">
+<input type="checkbox" id="status3" name="status3" value="Married"> 
+<label for ="status3">Married</label>
+</div>
+
+<div>
+<div style="float:left;">
+<input type="checkbox" id="status4" name="status4" value="Others"> 
+<label for ="status4">Others</label>
+</div>
+<br style="clear:both;"/>
+<br style="clear:both;"/>
+
+<div>
+<label> Notes: (Use this area to enter addtional information about your company) </label>
+</div>
+
+<div>
+<input type="textbox" id="note" name="note" value="" size="80px"> 
+</div>
+</section>
+</form>
+
+</body>
+
+</html>
